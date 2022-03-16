@@ -18,6 +18,7 @@ package com.example.android.camera2.basic
 
 import android.os.Bundle
 import android.view.View
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android.camera2.basic.databinding.ActivityCameraBinding
 

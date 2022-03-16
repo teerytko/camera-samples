@@ -29,7 +29,6 @@ android {
         versionCode 1
         versionName "1.0.0"
     }
-
     compileOptions {
         sourceCompatibility rootProject.ext.java_version
         targetCompatibility rootProject.ext.java_version

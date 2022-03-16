@@ -85,6 +85,7 @@ class SelectorFragment : Fragment() {
         private fun enumerateCameras(cameraManager: CameraManager): List<FormatItem> {
             val availableCameras: MutableList<FormatItem> = mutableListOf()
 
+
             // Get list of all compatible cameras
             val cameraIds = cameraManager.cameraIdList.filter {
                 val characteristics = cameraManager.getCameraCharacteristics(it)
